@@ -1,0 +1,11 @@
+.SectionTitle p {
+  font-family: "R3";
+  font-size: 15px;
+  margin-bottom: -3px;
+  color: rgb(31, 143, 195);
+}
+
+.SectionTitle h2 {
+  font-family: "R2";
+  color: rgba(0, 0, 0, 0.849);
+}

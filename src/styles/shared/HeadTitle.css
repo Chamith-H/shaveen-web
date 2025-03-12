@@ -1,0 +1,11 @@
+.HeadTitle p {
+  font-family: "R3";
+  font-size: 15px;
+  margin-bottom: -3px;
+  color: rgb(151, 222, 255);
+}
+
+.HeadTitle h2 {
+  font-family: "R2";
+  color: rgb(255, 255, 255);
+}

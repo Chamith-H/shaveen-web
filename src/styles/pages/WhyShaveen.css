@@ -1,0 +1,80 @@
+.ShaveenHead {
+  background-image: url("/public/images/shaveen/shaveenBack.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.shaveenHeadBack {
+  background-color: rgba(0, 0, 0, 0.705);
+}
+
+.shaveen-des {
+  font-family: "R4";
+  color: rgb(255, 255, 255);
+}
+
+.shaveen-profile {
+  margin-top: -120px;
+}
+
+.ShaveenImg img {
+  width: 250px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 8px;
+  border-color: rgb(255, 255, 255);
+}
+
+.shaveen-des-body {
+  margin-top: 140px;
+}
+
+.shaveen-des-body h6 {
+  font-family: "R2";
+  color: #000;
+  font-size: 20px;
+}
+
+.shaveen-des-body p {
+  font-family: "R4";
+  color: black;
+}
+
+.shaveen-body li {
+  font-family: "R4";
+  color: black;
+}
+
+.contact-bar {
+  background-color: rgb(0, 70, 150);
+}
+
+.contact-bar p {
+  font-family: "R3";
+  color: #ffffff;
+}
+
+.contact-bar a {
+  font-family: "R3";
+  color: rgb(165, 207, 255);
+}
+
+.journey-des {
+  font-family: "R4";
+  color: #000;
+}
+
+.Life-journey {
+  background-color: #f3f3f3;
+}
+
+.Life-journey h6 {
+  font-family: "R2";
+}
+
+.Life-journey h6 span {
+  font-family: "R3";
+  color: rgb(255, 0, 0);
+}

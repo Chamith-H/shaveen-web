@@ -1,0 +1,48 @@
+.coach-header-main {
+  background-image: url("/public/images/coach/coachback.webp");
+  background-size: cover;
+  background-position: right;
+}
+
+.coach-header {
+  background-color: rgba(0, 0, 0, 0.764);
+}
+
+.coach-cont li {
+  font-family: "R4";
+  color: black;
+}
+
+.more-des-coach {
+  font-family: "R3";
+  color: #ffffff9b;
+}
+
+.info-coach-tag {
+  font-family: "R3";
+  color: #ffffff;
+}
+
+.coach-header li {
+  font-family: "R4";
+  color: #ffffffda;
+}
+
+.coach-back-img {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.coach-back-img img {
+  height: 400px;
+}
+
+.coach-con h6 {
+  font-family: "R2";
+}
+
+.coach-con a {
+  font-family: "R3";
+  color: rgba(0, 119, 255, 0.923);
+}

@@ -1,0 +1,158 @@
+.Hero {
+  background-image: url("/public/images/logo/partnership.webp");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hero-back {
+  height: 100%;
+  background-color: #000000b3;
+}
+
+/* .coach-card {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(213, 213, 213);
+} */
+
+.card-c-1 {
+  background-color: rgba(0, 59, 126, 0.836);
+  border-radius: 5px;
+}
+
+.card-c-1 img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.card-c-1 h6 {
+  margin-top: 10px;
+  font-family: "R3";
+  color: rgb(255, 255, 255);
+}
+
+.card-c-1 p {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.863);
+  margin-bottom: 2px;
+}
+
+.card-c-2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(0, 70, 150, 0.619);
+  border-radius: 5px;
+}
+
+.card-c-2 img {
+  width: 50px;
+}
+
+.card-c-2 h6 {
+  margin-top: 10px;
+  font-family: "R2";
+  color: rgb(0, 0, 0);
+}
+
+.card-c-2 p {
+  font-family: "R4";
+  color: rgb(0, 0, 0);
+  margin-bottom: 2px;
+}
+
+.background-b {
+  background-color: rgba(0, 0, 0, 0.748);
+  border-radius: 5px;
+}
+
+.coach-card-x {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(230, 230, 230);
+  border-radius: 5px;
+}
+
+.coach-card-x img {
+  width: 50px;
+}
+
+.coach-card-x h6 {
+  font-family: "R2";
+}
+
+.coach-card-x p {
+  font-family: "R4";
+  color: #000;
+}
+
+.card-c-3 {
+  background-image: url("/public/images/coach/coachhome.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.card-c-3 img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.card-c-3 h6 {
+  margin-top: 10px;
+  font-family: "R3";
+  color: rgb(255, 255, 255);
+}
+
+.card-c-3 ul li {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.91);
+  margin-bottom: 2px;
+}
+
+.o-services {
+  background-color: rgb(241, 241, 241);
+}
+
+.o-services p {
+  font-family: "R4";
+  color: black;
+}
+
+.sub-t {
+  font-family: "R2";
+}
+
+.o-services li {
+  font-family: "R3";
+  color: black;
+}
+
+.coach-card li {
+  font-family: "R4";
+  color: black;
+}
+
+.hero-des {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.856);
+}
+
+.hero-cont i {
+  font-size: 25px;
+  color: #ffffffd7;
+}
+
+.Hero-bottom {
+  background-color: rgb(230, 230, 230);
+}
+
+.Hero-bottom h6 {
+  font-family: "R2";
+  color: rgb(0, 40, 85);
+}
+
+.Hero-bottom p {
+  font-family: "R3";
+  color: #505050;
+}

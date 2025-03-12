@@ -1,0 +1,18 @@
+.SeeMore {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.SeeMore a {
+  text-decoration: none;
+  font-family: "R3";
+  color: rgb(0, 81, 173);
+  display: flex;
+  align-items: center;
+}
+
+.SeeMore i {
+  margin-left: 6px;
+  font-size: 20px;
+}

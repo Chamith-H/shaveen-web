@@ -1,0 +1,43 @@
+.Footer {
+  background-color: rgb(0, 59, 126);
+}
+
+.Footer h5 {
+  color: rgb(255, 255, 255);
+  font-family: "R2";
+}
+
+.Footer p {
+  font-family: "R3";
+  color: rgba(255, 255, 255, 0.871);
+  font-size: 15px;
+}
+
+.Footer i {
+  font-size: 25px;
+  color: #ffffffe5;
+}
+
+.head-col img {
+  width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.321);
+  border-radius: 5px;
+}
+
+.head-col h6 {
+  font-family: "R4";
+  color: #ffffffa3;
+}
+
+.quick-links h6 {
+  font-family: "R2";
+  color: #ffffff;
+}
+
+.quick-links a {
+  text-decoration: none;
+  font-family: "R4";
+  color: #ffffffaa;
+}
