@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="Footer">
       <div className="p-4 p-md-5">
         <div className="py-4">
-          <div className="row">
+          <div className="row gy-0">
             <div className="col-lg-8">
               <div className="head-col d-md-flex justify-content-start align-items-start h-100">
                 <img src="/images/shaveen/shaveenF.jpg" alt="" />

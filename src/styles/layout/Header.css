@@ -11,7 +11,7 @@
 }
 
 .Header-Logo img {
-  height: 45px;
+  height: 40px;
   margin-left: -2px;
 }
 
@@ -128,8 +128,9 @@
 }
 
 .Header-Logo a h6 {
-  font-style: "R2";
-  font-size: 35px;
+  font-style: "R1";
+  font-weight: 700;
+  font-size: 30px;
   color: rgb(40, 66, 101);
   margin-top: -8px;
 }
