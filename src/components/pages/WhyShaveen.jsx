@@ -88,13 +88,24 @@ export const WhyShaveen = () => {
             of purpose-driven individuals.
           </p>
 
-          <h6>
+          <h6 className="mt-4">
             My leardership philosophy is simple :
             <span>
               &nbsp; Leadership inspires, not manipulates. It creates leaders,
               not dependents.
             </span>
           </h6>
+
+          <p className="more-journey-des">
+            Be free from pride-filled opinions, for they will only harm your
+            cherished unity. Don’t allow self-promotion to hide in your hearts,
+            but in authentic humility put others first and view others as more
+            important than yourselves. Abandon every display of selfishness.
+            Possess a greater concern for what matters to others instead of your
+            own interests. And consider the example that Jesus, the Anointed
+            One, has set before us. Let his mindset become your motivation
+            (Philippians 2:3-5 ).
+          </p>
         </div>
       </div>
 

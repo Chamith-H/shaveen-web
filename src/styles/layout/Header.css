@@ -7,30 +7,143 @@
   top: 0;
   background-color: rgb(255, 255, 255);
   z-index: 999;
-  box-shadow: 0px 5px 13px 0px #00000016;
+  box-shadow: 0px 5px 15px 0px #00000017;
 }
 
-.desktop-navigations a {
+.Header-Logo img {
+  height: 45px;
+  margin-left: -2px;
+}
+
+@media (max-width: 577px) {
+  .Header-Logo img {
+    height: 38px;
+    margin-left: -2px;
+  }
+}
+
+.Desktop-Navigations {
+  display: flex;
+  align-items: center;
+}
+
+.deactive-route {
+  font-family: "R2";
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(124, 124, 124);
+}
+
+.active-route {
+  font-family: "R2";
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(27, 171, 200);
+}
+
+.deactive-route:hover {
+  font-family: "R2";
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(122, 122, 122, 0.582);
+}
+/* '''' */
+.deactive-route-m {
   font-family: "R3";
   text-decoration: none;
-  font-size: 15px;
-  margin-left: 25px;
-  color: rgb(80, 80, 80);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.596);
 }
 
-.company-brand-logo img {
-  height: 50px;
-}
-
-.company-brand-logo h6 {
+.active-route-m {
   font-family: "R2";
-  font-size: 20px;
-  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
 }
 
-.company-brand-logo p {
-  margin-top: -6px;
+.deactive-route-m:hover {
   font-family: "R3";
-  font-size: 13px;
-  color: rgb(118, 118, 118);
+  text-decoration: none;
+  font-size: 14px;
+  color: #71def3;
+}
+
+.Toggle-button {
+  border-style: none;
+  background-color: rgba(10, 111, 134, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -9px;
+}
+
+.Toggle-button i {
+  font-size: 34px;
+  color: rgb(0, 59, 126);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.Desktop-Navigations-mobile {
+  display: flex;
+  flex-direction: column;
+  z-index: 90;
+}
+
+.Collapsed {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+  background-color: rgb(0, 59, 126);
+}
+
+.Expanded {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  height: 250px;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+  background-color: rgb(0, 59, 126);
+  box-shadow: 0px 5px 5px 0px #00000033;
+}
+
+.expand-back {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.expand-back img {
+  width: 220px;
+  opacity: 50%;
+  margin-bottom: -15px;
+}
+
+.Header-Logo a {
+  text-decoration: none;
+}
+
+.Header-Logo a h6 {
+  font-style: "R2";
+  font-size: 35px;
+  color: rgb(40, 66, 101);
+  margin-top: -8px;
+}
+
+.Header-Logo a p {
+  font-family: "R3";
+  font-size: 14px;
+  margin-top: -6px;
+  color: #878787;
 }

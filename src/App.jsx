@@ -6,7 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   return (
-    <div className="App d-none d-xl-block">
+    <div className="App">
       <Header />
       <Routings />
       <Footer />

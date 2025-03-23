@@ -15,8 +15,8 @@ export const Home = () => {
             />
 
             <p className="hero-des">
-              I help you develop a stronger mindset, stay consistent, and
-              achieve sustainable success.
+              Free guidance for building a strong mindset and achieving
+              consistency for lasting results.
             </p>
 
             <div className="d-flex hero-cont mt-5 pt-5">

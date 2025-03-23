@@ -72,9 +72,16 @@
 
 .Life-journey h6 {
   font-family: "R2";
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .Life-journey h6 span {
   font-family: "R3";
   color: rgb(255, 0, 0);
+}
+
+.more-journey-des {
+  font-family: "R4";
+  color: #000;
 }
