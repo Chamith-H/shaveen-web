@@ -19,7 +19,7 @@ export const Home = () => {
               consistency for lasting results.
             </p>
 
-            <div className="d-flex hero-cont mt-5 pt-5">
+            <div className="d-flex hero-cont mt-5 pt-md-5">
               <a href="">
                 <i class="bi bi-whatsapp"></i>
               </a>
@@ -30,7 +30,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="Hero-bottom px-5 py-4">
+      <div className="Hero-bottom px-4 px-md-5 py-4">
         <h6 className="mb-0">
           Are you ready to break free from limitations and step into your
           fullest potential?
@@ -53,8 +53,8 @@ export const Home = () => {
             description="GAIN CLARITY, BREAK BARRIERS, ELEVATE YOUR LIFE"
           />
 
-          <div className="row mt-4 gx-4 gy-4">
-            <div className="col-4">
+          <div className="row mt-3 gx-4 gy-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="coach-card-x p-4">
                 <img src="/images/coach/search.gif" alt="" />
                 <h6>Find clarity in the midst of chaos</h6>
@@ -68,7 +68,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="coach-card-x p-4">
                 <img src="/images/coach/line-chart.gif" alt="" />
                 <h6>Identify and Break Negative Patterns</h6>
@@ -82,7 +82,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="coach-card-x p-4">
                 <img src="/images/coach/decision-making.gif" alt="" />
                 <h6>Make Confident, Purpose-Driven Decisions</h6>
@@ -96,7 +96,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="coach-card-x p-4">
                 <img src="/images/coach/award.gif" alt="" />
                 <h6>Overcome Obstacles and Stay Accountable</h6>
@@ -110,7 +110,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="coach-card-x p-4">
                 <img src="/images/coach/cost-per-lead.gif" alt="" />
                 <h6>Lead with Confidence and Authenticity</h6>
@@ -124,7 +124,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-4 d-flex align-items-end">
+            <div className="col-12 col-md-6 col-lg-4 d-flex align-items-end">
               <SeeMore navigate="/why-coaching" />
             </div>
           </div>
@@ -149,7 +149,7 @@ export const Home = () => {
           </p>
 
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <h6 className="sub-t">My coaching programs divided,</h6>
               <ul>
                 <li>Faith Based Programs</li>
@@ -157,7 +157,7 @@ export const Home = () => {
               </ul>
             </div>
 
-            <div className="col-6 d-flex align-items-end">
+            <div className="col-md-6 d-flex align-items-end">
               <SeeMore navigate="/our-services" />
             </div>
           </div>
@@ -172,7 +172,7 @@ export const Home = () => {
           />
 
           <div className="row mt-4 gx-4 gy-4">
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="coach-card card-c-1 p-4">
                 <div className="py-2">
                   <img src="/images/shaveen/impact.gif" alt="" />
@@ -187,7 +187,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="coach-card card-c-2 p-4">
                 <div className="py-2">
                   <img src="/images/shaveen/goals.gif" alt="" />
@@ -202,7 +202,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-12">
+            <div className="col-md-12">
               <div className="coach-card card-c-3">
                 <div className="p-4 background-b">
                   <div className="py-2">

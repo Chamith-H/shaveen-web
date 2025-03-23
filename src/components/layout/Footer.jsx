@@ -6,11 +6,11 @@ export const Footer = () => {
       <div className="p-4 p-md-5">
         <div className="py-4">
           <div className="row">
-            <div className="col-8">
-              <div className="head-col d-flex">
+            <div className="col-lg-8">
+              <div className="head-col d-md-flex justify-content-start align-items-start h-100">
                 <img src="/images/shaveen/shaveenF.jpg" alt="" />
 
-                <div className="ms-4 d-flex flex-column justify-content-between h-100r">
+                <div className="ms-md-4 d-flex flex-column justify-content-between h-100 mt-4 mt-md-0">
                   <div>
                     <h5 className="mb-0">SHAVEEN FERNANDO</h5>
                     <p className="mb-0">Coach For You</p>
@@ -27,7 +27,7 @@ export const Footer = () => {
                     </h6>
                   </div>
 
-                  <div className="d-flex">
+                  <div className="d-none d-md-flex">
                     <a href="">
                       <i class="bi bi-whatsapp"></i>
                     </a>
@@ -37,10 +37,22 @@ export const Footer = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="d-flex d-md-none mobile-navs-ico">
+                <a href="">
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="" className="ms-3">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
             </div>
 
-            <div className="col-4">
-              <div className="quick-links d-flex justify-content-end">
+            <div className="col-lg-4">
+              <div className="d-block d-lg-none">
+                <div className="div-border-x"></div>
+              </div>
+              <div className="quick-links d-flex justify-content-lg-end mt-5 mt-lg-0">
                 <div className="me-5">
                   <h6>Quick Links</h6>
 

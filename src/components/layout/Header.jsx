@@ -42,7 +42,7 @@ export const Header = () => {
         </a>
       </div>
 
-      <div className="d-none d-lg-block">
+      <div className="d-none d-md-block">
         <div className="Desktop-Navigations">
           <a
             className={route === "" ? "active-route" : "deactive-route"}
@@ -94,7 +94,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="d-lg-none">
+      <div className="d-md-none">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
           className="Toggle-button"
