@@ -6,7 +6,7 @@ export const Services = () => {
   return (
     <div className="OurServices">
       <div className="ServiceHeader">
-        <div className="p-5 service-header">
+        <div className="p-4 p-md-5 service-header">
           <div className="py-4">
             <HeadTitle
               title="MY SERVICES"
@@ -36,7 +36,7 @@ export const Services = () => {
           />
 
           <div className="row mt-2 gy-4">
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/money-bag.gif" alt="" />
@@ -47,7 +47,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/time.gif" alt="" />
@@ -58,7 +58,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/life-skills.gif" alt="" />
@@ -69,7 +69,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/support.gif" alt="" />
@@ -80,7 +80,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/setting.gif" alt="" />
@@ -91,7 +91,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/brain.gif" alt="" />
@@ -102,7 +102,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/analytics.gif" alt="" />
@@ -113,7 +113,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/leadership.gif" alt="" />
@@ -137,7 +137,7 @@ export const Services = () => {
           />
 
           <div className="row mt-2 gy-4">
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/profits.gif" alt="" />
@@ -148,7 +148,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/time-is-money.gif" alt="" />
@@ -159,7 +159,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/path.gif" alt="" />
@@ -170,7 +170,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-md-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/services/management.gif" alt="" />
@@ -187,7 +187,7 @@ export const Services = () => {
       </div>
 
       <div className="pb-4 pb-md-5 px-4 px-md-5">
-        <div className="service-contact-card py-5">
+        <div className="service-contact-card py-5 px-4">
           <p className="serv-con-des text-center">
             Take the first step toward your breakthrough. Let's connect!
           </p>

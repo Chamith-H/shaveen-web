@@ -35,10 +35,6 @@ export const Header = () => {
             alt="shaveen-logo"
             className="me-1"
           />
-          <div>
-            <h6 className="mb-0">HAVEEN</h6>
-            <p className="mb-0">Coach For You</p>
-          </div>
         </a>
       </div>
 

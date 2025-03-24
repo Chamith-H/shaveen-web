@@ -24,12 +24,12 @@ export const WhyShaveen = () => {
         </div>
       </div>
 
-      <div className="shaveen-profile px-5 d-flex justify-content-start align-items-start">
+      <div className="shaveen-profile px-4 px-md-5 d-md-flex justify-content-start align-items-start">
         <div className="ShaveenImg">
           <img src="/images/shaveen/shaveenPic.jpg" alt="" />
         </div>
 
-        <div className="shaveen-des-body ms-5">
+        <div className="shaveen-des-body ms-md-5">
           <h6>I'm Shaveen Fernando</h6>
           <p>
             I guide individuals and teams to uncover their purpose, set
@@ -40,7 +40,7 @@ export const WhyShaveen = () => {
         </div>
       </div>
 
-      <div className="shaveen-body px-5 py-5">
+      <div className="shaveen-body px-4 px-md-5 py-5">
         <SectionTitle
           title="HOW I WORK"
           description="LEAD WITH PURPOSE, SUCCEED WITH IMPACT"
@@ -64,12 +64,12 @@ export const WhyShaveen = () => {
         </ul>
       </div>
 
-      <div className="contact-bar px-5 py-4 d-flex flex-column align-items-center">
+      <div className="contact-bar px-4 px-md-5 py-4 d-flex flex-column align-items-center">
         <p className="mb-0">Let’s craft your success story together.</p>
         <a href="">Contact me today!</a>
       </div>
 
-      <div className="Life-journey px-5 py-5">
+      <div className="Life-journey px-4 px-md-5 py-5">
         <div className="py-4">
           <SectionTitle
             title="MY LIFE JOURNEY"
@@ -109,7 +109,7 @@ export const WhyShaveen = () => {
         </div>
       </div>
 
-      <div className="Life-journey-2 px-5 py-5">
+      <div className="Life-journey-2 px-4 px-md-5 py-5">
         <div className="py-4">
           <SectionTitle
             title="MY STRENGTHS"
@@ -117,7 +117,7 @@ export const WhyShaveen = () => {
           />
 
           <div className="row mt-2 gy-4">
-            <div className="col-4">
+            <div className="col-12 col-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/shaveen/consulting.gif" alt="" />
@@ -128,7 +128,7 @@ export const WhyShaveen = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/shaveen/trophy.gif" alt="" />
@@ -139,7 +139,7 @@ export const WhyShaveen = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/shaveen/relationship.gif" alt="" />
@@ -150,7 +150,7 @@ export const WhyShaveen = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/shaveen/book.gif" alt="" />
@@ -161,7 +161,7 @@ export const WhyShaveen = () => {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-6 col-lg-4">
               <div className="serviceCard">
                 <div className="service-img mb-2">
                   <img src="/images/shaveen/feedback.gif" alt="" />

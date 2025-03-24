@@ -6,7 +6,7 @@ export const Contact = () => {
   return (
     <div>
       <div className="Contact">
-        <div className="cotact-back-align p-5">
+        <div className="cotact-back-align p-4 p-md-5">
           <div className="py-4">
             <HeadTitle
               title="CONTACT ME"
@@ -41,7 +41,7 @@ export const Contact = () => {
         </div>
       </div>
 
-      <div className="Other-say mx-5 my-5">
+      <div className="Other-say mx-4 mx-md-5 my-5">
         <div className="say-card px-5 py-5">
           <h6>What Others Say!</h6>
           <p className="mb-0 pb-4">
@@ -59,7 +59,7 @@ export const Contact = () => {
         </div>
       </div>
 
-      <div className="mx-5 my-5 slogan-c">
+      <div className="mx-4 mx-md-5 my-5 slogan-c">
         <h1 className="text-center">
           " Let’s embark on your journey toward growth, success, and impact! "
         </h1>

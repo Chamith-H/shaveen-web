@@ -6,7 +6,7 @@ export const WhyCoaching = () => {
   return (
     <div className="WhyCoaching">
       <div className="coach-header-main">
-        <div className="p-5 coach-header">
+        <div className="p-4 p-md-5 coach-header">
           <div className="py-4">
             <HeadTitle
               title="WHY COACHING?"
@@ -33,7 +33,7 @@ export const WhyCoaching = () => {
       <div className="coach-cont pt-4 pt-md-5 px-4 px-md-5">
         <div className="pt-4">
           <div className="row">
-            <div className="col-6 pb-5">
+            <div className="col-lg-6 pb-5">
               <SectionTitle
                 title="NEED A COACH?"
                 description="12 SIGNS YOU MIGHT NEED A COACH"
@@ -71,8 +71,8 @@ export const WhyCoaching = () => {
               </div>
             </div>
 
-            <div className="col-6 coach-back-img">
-              <img src="/images/coach/coachbody.png" alt="" />
+            <div className="col-lg-6 coach-back-img">
+              <img src="/images/coach/coachbody.jpg" alt="" />
             </div>
           </div>
         </div>

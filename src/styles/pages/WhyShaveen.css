@@ -31,6 +31,12 @@
   margin-top: 140px;
 }
 
+@media (max-width: 768px) {
+  .shaveen-des-body {
+    margin-top: 15px;
+  }
+}
+
 .shaveen-des-body h6 {
   font-family: "R2";
   color: #000;
