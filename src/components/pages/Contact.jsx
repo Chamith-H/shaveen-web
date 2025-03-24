@@ -42,7 +42,7 @@ export const Contact = () => {
       </div>
 
       <div className="Other-say mx-4 mx-md-5 my-5">
-        <div className="say-card px-5 py-5">
+        <div className="say-card p-4 px-md-5 py-md-5">
           <h6>What Others Say!</h6>
           <p className="mb-0 pb-4">
             Those who have worked with me describe me as a leader who inspires,
