@@ -80,3 +80,8 @@
   display: flex;
   align-items: center;
 }
+
+.service-des-bottom {
+  font-family: "R4";
+  color: black;
+}

@@ -10,10 +10,10 @@ export const Services = () => {
           <div className="py-4">
             <HeadTitle
               title="MY SERVICES"
-              description="COACHING & GROUP COACHING PROGRAMS"
+              description="1:1 COACHING & GROUP COACHING PROGRAMS"
             />
 
-            <p className="serviceDes">
+            {/* <p className="serviceDes">
               My coaching, rooted in personal experience and Biblical
               principles, is designed for individuals of all faith backgrounds.
               I help you develop a stronger mindset, stay consistent, and
@@ -23,17 +23,14 @@ export const Services = () => {
               put into your coaching sessions, the more you'll benefit. Those
               who get the best results are receptive to feedback and open to
               doing the work at the end of each session.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
 
       <div className="ServiceOpt py-4 py-md-5 px-4 px-md-5">
         <div className="py-4">
-          <SectionTitle
-            title="FAITH BASED PROGRAMS"
-            description="GROWTH FINANCE, TIME, LIFE & PURPOSE"
-          />
+          <SectionTitle title="" description="FAITH BASED PROGRAMS" />
 
           <div className="row mt-2 gy-4">
             <div className="col-12 col-md-6 col-lg-4">
@@ -42,8 +39,11 @@ export const Services = () => {
                   <img src="/images/services/money-bag.gif" alt="" />
                 </div>
 
-                <h6>Financial Peace</h6>
-                <p>Master money management & build generational wealth.</p>
+                <h6>Financial Stewardship</h6>
+                <p>
+                  Cultivate financial peace and build generational wealth
+                  through biblical principles.
+                </p>
               </div>
             </div>
 
@@ -53,8 +53,11 @@ export const Services = () => {
                   <img src="/images/services/time.gif" alt="" />
                 </div>
 
-                <h6>Time Management</h6>
-                <p>Achieve more without burnout.</p>
+                <h6>Effective Time Management</h6>
+                <p>
+                  Maximize productivity and minimize burnout with faith-centered
+                  strategies.
+                </p>
               </div>
             </div>
 
@@ -64,8 +67,10 @@ export const Services = () => {
                   <img src="/images/services/life-skills.gif" alt="" />
                 </div>
 
-                <h6>Life Excellence</h6>
-                <p>Dream planning & Goal setting.</p>
+                <h6>Purposeful Life Planning</h6>
+                <p>
+                  Align your dreams and goals with God's vision for your life.{" "}
+                </p>
               </div>
             </div>
 
@@ -75,8 +80,8 @@ export const Services = () => {
                   <img src="/images/services/support.gif" alt="" />
                 </div>
 
-                <h6>Calling</h6>
-                <p>Step into Faith-Driven Service.</p>
+                <h6>Faith-Driven Calling</h6>
+                <p>Discover and step into your divinely appointed mission. </p>
               </div>
             </div>
 
@@ -86,8 +91,25 @@ export const Services = () => {
                   <img src="/images/services/setting.gif" alt="" />
                 </div>
 
-                <h6>Ministry (or Church) Management</h6>
-                <p>Stewarding with excellence.</p>
+                <h6>Ministry Excellence</h6>
+                <p>
+                  Steward your ministry or church with integrity and
+                  effectiveness.{" "}
+                </p>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="serviceCard">
+                <div className="service-img mb-2">
+                  <img src="/images/coach/award.gif" alt="" />
+                </div>
+
+                <h6>Leadership Support</h6>
+                <p>
+                  Receive dedicated counseling and coaching for ministry leaders
+                  and men.
+                </p>
               </div>
             </div>
 
@@ -98,7 +120,10 @@ export const Services = () => {
                 </div>
 
                 <h6>Bible to Brain</h6>
-                <p>Professional career development with Biblical principles.</p>
+                <p>
+                  Integrate biblical principles into your career path for
+                  meaningful advancement.
+                </p>
               </div>
             </div>
 
@@ -109,7 +134,7 @@ export const Services = () => {
                 </div>
 
                 <h6>Bible to Business</h6>
-                <p>Build a Purpose-Driven Enterprise.</p>
+                <p>Build a business that honors God and serves others.</p>
               </div>
             </div>
 
@@ -120,7 +145,7 @@ export const Services = () => {
                 </div>
 
                 <h6>Bible to Boldness</h6>
-                <p>Develop Faith-Driven Leadership.</p>
+                <p>Develop bold, faith-driven leadership skills.</p>
               </div>
             </div>
           </div>
@@ -131,10 +156,7 @@ export const Services = () => {
 
       <div className="ServiceOpt py-4 py-md-5 px-4 px-md-5">
         <div className="py-4">
-          <SectionTitle
-            title="GENERAL PROGRAMS"
-            description="FINANCIAL, TIME, CAREER & LEDERSHIP PROGRAMS"
-          />
+          <SectionTitle title="" description="GENERAL PROGRAMS" />
 
           <div className="row mt-2 gy-4">
             <div className="col-12 col-md-6 col-lg-4">
@@ -143,8 +165,8 @@ export const Services = () => {
                   <img src="/images/services/profits.gif" alt="" />
                 </div>
 
-                <h6>Financial Freedom Coaching</h6>
-                <p>Gain control over finances & build lasting wealth.</p>
+                <h6>Achieve Financial Freedom</h6>
+                <p>Develop strategies for lasting financial security.</p>
               </div>
             </div>
 
@@ -154,8 +176,8 @@ export const Services = () => {
                   <img src="/images/services/time-is-money.gif" alt="" />
                 </div>
 
-                <h6>Time Management</h6>
-                <p>Maximize productivity & prevent burnout.</p>
+                <h6>Master Time Management</h6>
+                <p>Increase productivity and reduce stress.</p>
               </div>
             </div>
 
@@ -165,8 +187,8 @@ export const Services = () => {
                   <img src="/images/services/path.gif" alt="" />
                 </div>
 
-                <h6>Career & Entrepreneur Coaching</h6>
-                <p>Unlock potential & achieve career success.</p>
+                <h6>Advance Your Career & Entrepreneurial Ventures</h6>
+                <p>Gain guidance for professional success.</p>
               </div>
             </div>
 
@@ -177,9 +199,10 @@ export const Services = () => {
                 </div>
 
                 <h6>
-                  Organizational Culture Transformation & Leadership Development
+                  Cultivate Effective Leadership & Transform Organizational
+                  Culture
                 </h6>
-                <p>Cultivate strong teams & impactful leadership.</p>
+                <p>Foster a positive and productive work environment.</p>
               </div>
             </div>
           </div>
@@ -205,6 +228,24 @@ export const Services = () => {
               <p className="mb-0 ms-2">Connect with me on LinkedIn</p>
             </div>
           </a>
+        </div>
+      </div>
+
+      <div className="px-4 px-md-5 py-4 mb-4">
+        <div className="py-4 service-des-bottom">
+          <SectionTitle
+            title="WHAT DRIVES YOU TO OFFER FREE COACHING?"
+            description="IT'S SIMPLY A JOY TO GIVE BACK AND WITNESS OTHERS SUCCEED."
+          />
+
+          <p>
+            My professional career provides me with financial stability,
+            allowing me to cover all my expenses comfortably. Therefore, I'm
+            fortunate enough to offer my guidance freely. I find immense joy in
+            sharing my time, knowledge and experience, believing that giving is
+            far more rewarding than receiving. This is simply my way of passing
+            on the blessings I've received.
+          </p>
         </div>
       </div>
     </div>

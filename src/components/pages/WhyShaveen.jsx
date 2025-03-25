@@ -10,13 +10,11 @@ export const WhyShaveen = () => {
           <div className="py-4">
             <HeadTitle
               title="WHY SHAVEEN"
-              description="REAL GROWTH, REAL IMPACT & REAL RESULTS"
+              description="RESET. REFOCUS. RESTART."
             />
 
             <p className="shaveen-des mb-0">
-              I believe everyone deserves a life of dignity, prosperity, and
-              peace. True leadership doesn’t manipulate — it inspires and
-              empowers others to rise.
+              As many times as you need to. Just don't quit.
             </p>
 
             <p className="py-5"></p>
@@ -58,15 +56,15 @@ export const WhyShaveen = () => {
           </li>
 
           <li>
-            I specialize in financial freedom, leadership development, and
-            career growth to help you achieve lasting success.
+            I specialize in financial freedom coaching, leadership development,
+            and career growth mentoring to help you achieve lasting success.
           </li>
         </ul>
       </div>
 
       <div className="contact-bar px-4 px-md-5 py-4 d-flex flex-column align-items-center">
         <p className="mb-0">Let’s craft your success story together.</p>
-        <a href="">Contact me today!</a>
+        <a href="/contact-us">Contact me today!</a>
       </div>
 
       <div className="Life-journey px-4 px-md-5 py-5">

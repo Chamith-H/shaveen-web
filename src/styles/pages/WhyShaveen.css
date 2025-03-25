@@ -65,6 +65,7 @@
 .contact-bar a {
   font-family: "R3";
   color: rgb(165, 207, 255);
+  text-decoration: none;
 }
 
 .journey-des {
@@ -78,13 +79,12 @@
 
 .Life-journey h6 {
   font-family: "R2";
-  text-decoration: underline;
   text-decoration-thickness: 1px;
 }
 
 .Life-journey h6 span {
   font-family: "R3";
-  color: rgb(255, 0, 0);
+  color: rgb(0, 40, 86);
 }
 
 .more-journey-des {

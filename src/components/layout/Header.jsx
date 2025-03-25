@@ -31,7 +31,7 @@ export const Header = () => {
       <div className="Header-Logo">
         <a href="" className="d-flex">
           <img
-            src="/images/logo/logo.png"
+            src="/images/logo/logo.jpg"
             alt="shaveen-logo"
             className="me-1"
           />

@@ -11,7 +11,7 @@ export const Home = () => {
           <div className="py-4">
             <HeadTitle
               title="COACH FOR YOU"
-              description="EMPOWERING INDIVIDUALS AND TEAMS TO GROW, UNITE & SUCCEED - CULTIVATING A THRIVING, RESILIENT COMMUNITY"
+              description="CULTIVATING A THRIVING, RESILIENT COMMUNITY"
             />
 
             <p className="hero-des">
@@ -46,7 +46,7 @@ export const Home = () => {
         </p>
       </div>
 
-      <div className="coaching p-4 p-md-5">
+      {/* <div className="coaching p-4 p-md-5">
         <div className="py-4">
           <SectionTitle
             title="WHY COACHING"
@@ -129,9 +129,9 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="o-services p-4 p-md-5">
+      {/* <div className="o-services p-4 p-md-5">
         <div className="py-4">
           <SectionTitle
             title="MY SERVICES"
@@ -162,12 +162,12 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="my-life p-4 p-md-5">
         <div className="py-4">
           <SectionTitle
-            title="WHY SHAVEEN FERNANDO"
+            title="WHY SHAVEEN"
             description="REAL GROWTH, REAL IMPACT & REAL RESULTS"
           />
 
