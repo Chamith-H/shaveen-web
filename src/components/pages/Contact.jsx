@@ -42,9 +42,9 @@ export const Contact = () => {
       </div>
 
       <div className="Other-say mx-4 mx-md-5 my-5">
-        <div className="say-card p-4 px-md-5 py-md-5">
-          <h6>Read More link to - What Others Say!</h6>
-          <p className="mb-0 pb-4">
+        <div className="say-card pt-4 px-4 px-md-5 pt-md-5 pb-md-3">
+          {/* <h6>Read More link to - What Others Say!</h6> */}
+          <p className="mb-0 pb-3 text-center">
             Those who have worked with me describe me as a leader who inspires,
             mentors, and empowers. My approach blends strategic vision with
             empathy, ensuring that individuals and teams grow both
@@ -55,7 +55,14 @@ export const Contact = () => {
             create a lasting impact on the people and organizations I work with.
           </p>
 
-          <SeeMore navigate="/why-coaching" />
+          <a
+            href="https://www.linkedin.com/in/shaveenfernando/details/recommendations/?detailScreenTabIndex=0"
+            target="blank"
+            className="see-more-contct"
+          >
+            <h6 className="mb-0">What Others Say</h6>
+            <img src="/images/coach/right.gif" alt="" />
+          </a>
         </div>
       </div>
 

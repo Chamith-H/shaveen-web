@@ -41,8 +41,12 @@
 .say-card {
   border-style: solid;
   border-width: 2px;
-  border-color: rgba(0, 70, 150, 0.392);
+  border-color: rgba(42, 130, 181, 0.323);
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .say-card h6 {
@@ -57,4 +61,22 @@
   font-family: "R3";
   font-style: italic;
   color: rgb(144, 144, 144);
+}
+
+.see-more-contct {
+  display: flex;
+  align-items: center;
+}
+
+.say-card a {
+  text-decoration: none;
+}
+
+.see-more-contct h6 {
+  color: rgb(42, 156, 181);
+  text-decoration: none;
+}
+
+.see-more-contct img {
+  width: 60px;
 }

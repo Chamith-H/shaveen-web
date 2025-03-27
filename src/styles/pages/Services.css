@@ -70,6 +70,12 @@
   text-decoration: none;
 }
 
+.service-contact-card a:hover,
+.service-con p:hover {
+  text-decoration: none;
+  color: rgb(23, 90, 172);
+}
+
 .service-con p {
   text-decoration: none;
   font-family: "R3";

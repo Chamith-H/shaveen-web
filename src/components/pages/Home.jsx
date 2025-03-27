@@ -20,10 +20,17 @@ export const Home = () => {
             </p>
 
             <div className="d-flex hero-cont mt-5 pt-md-5">
-              <a href="">
+              <a
+                href="https://wa.me/94777428427?text=Hi%20Shaveen%20I%20am%20ready%20to%20embark%20on%20a%20transformative%20journey.%20How%20can%20you%20guide%20me"
+                target="blank"
+              >
                 <i class="bi bi-whatsapp"></i>
               </a>
-              <a href="" className="ms-3">
+              <a
+                href="https://www.linkedin.com/in/shaveenfernando/"
+                className="ms-3"
+                target="blank"
+              >
                 <i class="bi bi-linkedin"></i>
               </a>
             </div>
@@ -40,7 +47,9 @@ export const Home = () => {
           Let's craft a personalized strategy to turn your vision into
           reality.&nbsp;&nbsp;
           <span>
-            <a href="">Click here</a>
+            <a className="service-a" href="/our-services">
+              Click here
+            </a>
           </span>
           &nbsp;to check my services!
         </p>

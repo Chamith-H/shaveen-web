@@ -28,7 +28,7 @@ export const WhyShaveen = () => {
         </div>
 
         <div className="shaveen-des-body ms-md-5">
-          <h6>I'm Shaveen Fernando</h6>
+          <h6>I'm Shaveen </h6>
           <p>
             I guide individuals and teams to uncover their purpose, set
             meaningful goals, and transform vision into reality. Through a
