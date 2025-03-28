@@ -29,7 +29,7 @@ export const Header = () => {
   return (
     <div className="Header px-4 px-md-5" ref={ref}>
       <div className="Header-Logo">
-        <a href="" className="d-flex">
+        <a href="/" className="d-flex">
           <img
             src="/images/logo/logo.jpg"
             alt="shaveen-logo"
@@ -58,11 +58,11 @@ export const Header = () => {
           </a>
           <a
             className={
-              route === "our-services"
+              route === "shaveen-services"
                 ? "active-route ms-4"
                 : "deactive-route ms-4"
             }
-            href="/our-services"
+            href="/shaveen-services"
           >
             My Services
           </a>
@@ -79,11 +79,11 @@ export const Header = () => {
 
           <a
             className={
-              route === "contact-us"
+              route === "contact-shaveen"
                 ? "active-route ms-4"
                 : "deactive-route ms-4"
             }
-            href="/contact-us"
+            href="/contact-shaveen"
           >
             Contact Me
           </a>
@@ -134,11 +134,11 @@ export const Header = () => {
 
               <a
                 className={
-                  route === "our-services"
+                  route === "shaveen-services"
                     ? "active-route-m mt-3"
                     : "deactive-route-m mt-3"
                 }
-                href="/our-services"
+                href="/shaveen-services"
               >
                 My Services
               </a>
@@ -156,11 +156,11 @@ export const Header = () => {
 
               <a
                 className={
-                  route === "contact-us"
+                  route === "contact-shaveen"
                     ? "active-route-m mt-3"
                     : "deactive-route-m mt-3"
                 }
-                href="/contact-us"
+                href="/contact-shaveen"
               >
                 Contact Me
               </a>

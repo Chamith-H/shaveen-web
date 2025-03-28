@@ -47,7 +47,7 @@ export const Home = () => {
           Let's craft a personalized strategy to turn your vision into
           reality.&nbsp;&nbsp;
           <span>
-            <a className="service-a" href="/our-services">
+            <a className="service-a" href="/shaveen-services">
               Click here
             </a>
           </span>
@@ -167,7 +167,7 @@ export const Home = () => {
             </div>
 
             <div className="col-md-6 d-flex align-items-end">
-              <SeeMore navigate="/our-services" />
+              <SeeMore navigate="/shaveen-services" />
             </div>
           </div>
         </div>

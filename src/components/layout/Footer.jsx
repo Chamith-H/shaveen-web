@@ -69,9 +69,9 @@ export const Footer = () => {
                   <div className="d-flex flex-column">
                     <a href="/">Home</a>
                     <a href="/why-coaching">Why Coaching</a>
-                    <a href="/our-services">My Services</a>
+                    <a href="/shaveen-services">My Services</a>
                     <a href="/why-shaveen">Why Shaveen</a>
-                    <a href="/contact-us">Contact Me</a>
+                    <a href="/contact-shaveen">Contact Me</a>
                   </div>
                 </div>
               </div>

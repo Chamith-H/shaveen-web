@@ -11,9 +11,9 @@ export const Routings = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/why-coaching" element={<WhyCoaching />} />
-        <Route path="/our-services" element={<Services />} />
+        <Route path="/shaveen-services" element={<Services />} />
         <Route path="/why-shaveen" element={<WhyShaveen />} />
-        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/contact-shaveen" element={<Contact />} />
       </Routes>
     </Router>
   );

@@ -67,7 +67,7 @@ export const WhyCoaching = () => {
                   transformation today!{" "}
                 </h6>
 
-                <a href="/contact-us">Contact me to get started.</a>
+                <a href="/contact-shaveen">Contact me to get started.</a>
               </div>
             </div>
 

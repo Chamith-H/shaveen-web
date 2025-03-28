@@ -64,7 +64,7 @@ export const WhyShaveen = () => {
 
       <div className="contact-bar px-4 px-md-5 py-4 d-flex flex-column align-items-center">
         <p className="mb-0">Let’s craft your success story together.</p>
-        <a href="/contact-us">Contact me today!</a>
+        <a href="/contact-shaveen">Contact me today!</a>
       </div>
 
       <div className="Life-journey px-4 px-md-5 py-5">
