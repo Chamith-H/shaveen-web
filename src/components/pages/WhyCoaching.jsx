@@ -77,6 +77,24 @@ export const WhyCoaching = () => {
           </div>
         </div>
       </div>
+
+      <div className="px-4 px-md-5 py-4 py-md-5  coach-new-serv">
+        <div className="py-4 service-des-bottom">
+          <SectionTitle
+            title="WHAT DRIVES YOU TO OFFER FREE COACHING?"
+            description="IT'S SIMPLY A JOY TO GIVE BACK AND WITNESS OTHERS SUCCEED."
+          />
+
+          <p className="mb-3">
+            My professional career provides me with financial stability,
+            allowing me to cover all my expenses comfortably. Therefore, I'm
+            fortunate enough to offer my guidance freely. I find immense joy in
+            sharing my time, knowledge and experience, believing that giving is
+            far more rewarding than receiving. This is simply my way of passing
+            on the blessings I've received.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

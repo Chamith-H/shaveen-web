@@ -45,6 +45,14 @@
 .coach-con a {
   font-family: "R3";
   color: rgba(0, 119, 255, 0.923);
+  text-decoration: none;
+}
+
+.coach-new-serv {
+  background-color: #ebebeb;
+  border-top-style: solid;
+  border-width: 2px;
+  border-top-color: #dddddd;
 }
 
 @media (max-width: 768px) {
