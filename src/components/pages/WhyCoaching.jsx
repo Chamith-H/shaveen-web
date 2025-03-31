@@ -61,13 +61,17 @@ export const WhyCoaching = () => {
                 <li>You struggle with self-discipline and accountability.</li>
               </ol>
 
-              <div className="mt-5 coach-con">
-                <h6 className="mb-0">
+              <div className="mt-5 coach-con d-flex flex-column align-items-center d-md-block">
+                <h6 className="mb-0 text-center text-md-start">
                   If any of these resonate with you, let’s start your
                   transformation today!{" "}
                 </h6>
 
-                <a href="/contact-shaveen">Contact me to get started.</a>
+                <a href="/contact-shaveen">
+                  <button className="contact-me-button px-3 py-2 mt-2">
+                    Contact me to get started
+                  </button>
+                </a>
               </div>
             </div>
 
