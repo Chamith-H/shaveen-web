@@ -237,7 +237,7 @@ export const Services = () => {
       <div className="px-4 px-md-5 py-4 mb-4">
         <div className="py-4 service-des-bottom">
           <SectionTitle
-            title="WHAT DRIVES YOU TO OFFER FREE COACHING?"
+            title="FAQ: WHAT DRIVES YOU TO OFFER FREE COACHING?"
             description="IT'S SIMPLY A JOY TO GIVE BACK AND WITNESS OTHERS SUCCEED."
           />
 

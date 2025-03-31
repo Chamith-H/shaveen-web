@@ -81,7 +81,7 @@ export const WhyCoaching = () => {
       <div className="px-4 px-md-5 py-4 py-md-5  coach-new-serv">
         <div className="py-4 service-des-bottom">
           <SectionTitle
-            title="WHAT DRIVES YOU TO OFFER FREE COACHING?"
+            title="FAQ: WHAT DRIVES YOU TO OFFER FREE COACHING?"
             description="IT'S SIMPLY A JOY TO GIVE BACK AND WITNESS OTHERS SUCCEED."
           />
 
