@@ -91,3 +91,52 @@
   font-family: "R4";
   color: black;
 }
+
+.service-base-intro {
+  background-color: rgb(0, 44, 95);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgba(255, 255, 255, 0.297);
+}
+
+.service-base-intro h6 {
+  font-family: "R3";
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.service-base-intro p {
+  font-family: "R4";
+  color: rgba(255, 255, 255, 0.559);
+}
+
+.wtsappSup {
+  width: 64px;
+  z-index: 2;
+}
+
+.wtsapp-a a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.wtsapp-a p {
+  font-family: "R4";
+  font-size: 14px;
+  color: black;
+}
+
+.wtsapp-a h6 {
+  font-family: "R2";
+  font-size: 15px;
+  margin-top: -3px;
+  color: black;
+}
+
+.wtsapp-body {
+  background-color: rgba(255, 255, 255, 0.836);
+  margin-left: -15px;
+  z-index: 1;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}

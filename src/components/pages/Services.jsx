@@ -28,6 +28,36 @@ export const Services = () => {
         </div>
       </div>
 
+      <div className="py-4 px-4 px-md-5 service-base-intro">
+        <h6 className="mb-0">
+          What's calling your attention right now? &nbsp;In our 1:1 coaching,
+          what area would you most like to focus on?
+        </h6>
+        <p className="mb-0">
+          To make the most of our time, I'd love to hear what area you'd most
+          like to focus on. Whether it’s personal growth, career goals,
+          financial goals or anything else, let’s make it a session that’s
+          tailored just for you.
+        </p>
+
+        <div className="mt-3 wtsapp-a">
+          <a
+            href="https://wa.me/94777428427?text=Hi%20Shaveen%20I%20am%20ready%20to%20embark%20on%20a%20transformative%20journey.%20How%20can%20you%20guide%20me"
+            target="blank"
+          >
+            <img
+              className="wtsappSup"
+              src="/images/services/wtsappSup.png"
+              alt=""
+            />
+            <div className="wtsapp-body py-1 pe-4 ps-4">
+              <p className="mb-0">Contact me via WhatsApp</p>
+              <h6 className="mb-0">+94 77 742 8427</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+
       <div className="ServiceOpt py-4 py-md-5 px-4 px-md-5">
         <div className="py-4">
           <SectionTitle title="" description="FAITH BASED PROGRAMS" />

@@ -23,14 +23,21 @@ export const Contact = () => {
 
             <div className="con-icons mt-5">
               <h5>Let's Start</h5>
-              <a href="">
+              <a
+                href="https://wa.me/94777428427?text=Hi%20Shaveen%20I%20am%20ready%20to%20embark%20on%20a%20transformative%20journey.%20How%20can%20you%20guide%20me"
+                target="blank"
+              >
                 <div className="service-con-x">
                   <img src="/images/services/whatsapp.png" alt="" />
                   <p className="mb-0 ms-2">Chat on WhatsApp</p>
                 </div>
               </a>
 
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/shaveenfernando/"
+                className="ms-3"
+                target="blank"
+              >
                 <div className="service-con-x mt-3">
                   <img src="/images/services/linkedin.png" alt="" />
                   <p className="mb-0 ms-2">Connect with me on LinkedIn</p>
