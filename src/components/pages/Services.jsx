@@ -52,7 +52,7 @@ export const Services = () => {
             />
             <div className="wtsapp-body py-1 pe-4 ps-4">
               <p className="mb-0">Contact me via WhatsApp</p>
-              <h6 className="mb-0">+94 77 742 8427</h6>
+              <h6 className="mb-0">+94 777428427</h6>
             </div>
           </a>
         </div>
